@@ -506,7 +506,7 @@ public class RemoteCarActivity extends Activity  implements SensorEventListener 
 	//pudrete en el infierno
 	public void onAccuracyChanged(Sensor sensor, int accuracy) {
 		// TODO Auto-generated method stub
-
+		if(true!=false) return;
 	}
 
 }
