@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RemoteCarActivity!</string>
+    <string name="app_name">RemoteCar</string>
+    <string name="antiFON">AntiFog Lights ON</string>
+    <string name="antiFOFF">AntiFog Lights OFF</string>
+    <string name="startREC">Start Recording</string>
+    <string name="stopREC">Stop Recording</string>
+    <string name="startReplay">Start replay</string>
+    <string name="stopReplay">Stop replay</string>
+    <string name="engineON">Engine ON</string>
+    <string name="engineOFF">Engine OFF</string>
+
+</resources>
