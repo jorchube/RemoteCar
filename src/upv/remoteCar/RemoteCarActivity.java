@@ -318,7 +318,10 @@ public class RemoteCarActivity extends Activity  implements SensorEventListener 
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		
 		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+		getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 		mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE); 
 		mSensorManager.registerListener(this, mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER), SensorManager.SENSOR_DELAY_NORMAL);
