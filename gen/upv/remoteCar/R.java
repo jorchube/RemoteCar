@@ -23,23 +23,25 @@ public final class R {
         public static final int speed1=0x7f020009;
         public static final int speed10=0x7f02000a;
         public static final int speed11=0x7f02000b;
-        public static final int speed2=0x7f02000c;
-        public static final int speed3=0x7f02000d;
-        public static final int speed4=0x7f02000e;
-        public static final int speed5=0x7f02000f;
-        public static final int speed6=0x7f020010;
-        public static final int speed7=0x7f020011;
-        public static final int speed8=0x7f020012;
-        public static final int speed9=0x7f020013;
-        public static final int volante=0x7f020014;
+        public static final int speed12=0x7f02000c;
+        public static final int speed2=0x7f02000d;
+        public static final int speed3=0x7f02000e;
+        public static final int speed4=0x7f02000f;
+        public static final int speed5=0x7f020010;
+        public static final int speed6=0x7f020011;
+        public static final int speed7=0x7f020012;
+        public static final int speed8=0x7f020013;
+        public static final int speed9=0x7f020014;
+        public static final int volante=0x7f020015;
     }
     public static final class id {
+        public static final int AbsoluteLayout1=0x7f060002;
         public static final int LinearLayout1=0x7f060000;
-        public static final int button1=0x7f060002;
+        public static final int button1=0x7f060003;
         public static final int engine=0x7f060004;
-        public static final int recording=0x7f060005;
-        public static final int reproducing=0x7f060006;
-        public static final int toggleButton1=0x7f060003;
+        public static final int recording=0x7f060006;
+        public static final int reproducing=0x7f060007;
+        public static final int toggleButton1=0x7f060005;
         public static final int velocimeter=0x7f060001;
     }
     public static final class layout {

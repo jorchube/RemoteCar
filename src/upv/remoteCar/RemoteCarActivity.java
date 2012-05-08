@@ -5,9 +5,7 @@ package upv.remoteCar;
 import android.content.Context;
 import android.content.Intent;
 
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
+
 import android.hardware.*;
 
 
@@ -19,11 +17,8 @@ import android.app.Activity;
 import android.bluetooth.*;
 import android.os.Bundle;
 import android.os.Vibrator;
-import android.text.Layout;
 import android.view.*;
-import android.view.WindowManager.LayoutParams;
-import android.view.animation.Animation;
-import android.view.animation.RotateAnimation;
+
 import android.widget.*;
 
 //import android.view.WindowManager.LayoutParams;
